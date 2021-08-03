@@ -32,19 +32,120 @@ header nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 100px;
+    
     list-style-type: none;
     text-decoration: underline;
+    font-size: 20px;
   
-  }
+}
   header nav ul li a:hover {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
-  }
+}
+  .title {
+      background-image: url("../images/trees.JPG");
+      padding: 120px;
+      background-position: center;
+      background-attachment: fixed;
+      background-position: 100%;
+      color: lightsteelblue;
+}
+.title div {
+    display: flex;
+    justify-content: flex-end;
+    
+}
 
-  .about-me {
-      display: flex;
-      justify-content: space-between;
-  }
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.work {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.run-buddy {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    padding: 75px 150px;
+    border: 10px;
+    border: solid 5px lightsteelblue;
+    border-radius: 15px;
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.work a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+.project-2 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    padding: 75px 150px;
+    border: 10px;
+    border: solid 5px lightsteelblue;
+    border-radius: 15px;
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.project-3 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    padding: 75px 150px;
+    border: 10px;
+    border: solid 5px lightsteelblue;
+    border-radius: 15px;
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.project-4 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    padding: 75px 150px;
+    border: 10px;
+    border: solid 5px lightsteelblue;
+    border-radius: 15px;
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.project-5 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: 100%;
+    padding: 75px 150px;
+    border: 10px;
+    border: solid 5px lightsteelblue;
+    border-radius: 15px;
+    color: lightsteelblue;
+    text-decoration: none;
+}
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.contact-info ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: lightsteelblue;
+    
+}
+.contact-info ul li{
+    margin: 30px;
+}
+
+
+.contact-info ul li a:hover {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+  
