@@ -63,12 +63,28 @@ header nav ul {
     justify-content: space-between;
     padding: 50px 50px;
 }
-.work {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 15px;
+.about-me div h2 {
+    padding: 50px 250px 0 0 ;
+    font-size: 40px;
 }
+.work {
+   
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+    
+}
+.project {
+  margin: 20px 20px;
+}
+.work div h2 {
+    padding: 50px 250px 0 0;
+    font-size: 40px;
+    
+}
+
 .run-buddy {
     background-image: url("../images/run-buddy.jpg");
     background-size: 100%;
@@ -76,7 +92,7 @@ header nav ul {
     border: 10px;
     border: solid 5px lightsteelblue;
     border-radius: 15px;
-    color: lightsteelblue;
+    color: black;
     text-decoration: none;
 }
 .work a:hover {
@@ -84,49 +100,50 @@ header nav ul {
     border-radius: 15px;
 }
 .project-2 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/flags.JPG");
     background-size: 100%;
     padding: 75px 150px;
     border: 10px;
     border: solid 5px lightsteelblue;
     border-radius: 15px;
-    color: lightsteelblue;
+    color: black;
     text-decoration: none;
 }
 .project-3 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/flags.JPG");
     background-size: 100%;
     padding: 75px 150px;
     border: 10px;
     border: solid 5px lightsteelblue;
     border-radius: 15px;
-    color: lightsteelblue;
+    color: black;
     text-decoration: none;
 }
 .project-4 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/flags.JPG");
     background-size: 100%;
     padding: 75px 150px;
     border: 10px;
     border: solid 5px lightsteelblue;
     border-radius: 15px;
-    color: lightsteelblue;
+    color: black;
     text-decoration: none;
 }
 .project-5 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/flags.JPG");
     background-size: 100%;
     padding: 75px 150px;
     border: 10px;
     border: solid 5px lightsteelblue;
     border-radius: 15px;
-    color: lightsteelblue;
+    color: black;
     text-decoration: none;
 }
 .contact-me {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #505050;
     
 }
 .contact-info ul{
@@ -138,7 +155,7 @@ header nav ul {
     
 }
 .contact-info ul li{
-    margin: 30px;
+    margin: 60px;
 }
 
 
@@ -147,5 +164,9 @@ header nav ul {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.contact-me div h2 {
+    padding: 50px ;
+    font-size: 40px;
 }
   
